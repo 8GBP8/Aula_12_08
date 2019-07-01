@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOVA TAREFA"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#ff0000" />
+
+    <EditText
+        android:id="@+id/input1"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text="Titulo"
+        android:textSize="30sp"
+        android:layout_below="@id/titulo"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="50sp"
+        android:textColor="#ff0000"/>
+
+    <EditText
+        android:id="@+id/input2"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text="Digite a data"
+        android:textSize="30sp"
+        android:layout_below="@id/input1"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="50sp"
+        android:textColor="#ff0000"/>
+
+    <TextView
+        android:id="@+id/titulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prioridades"
+        android:textSize="30sp"
+        android:layout_below="@id/input2"
+        android:gravity="center"
+        android:layout_marginTop="60sp"
+        android:textColor="#ff0000"/>
+
+    <CheckBox
+        android:id="@+id/check1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titulo2"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="46sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alta"
+        android:textSize="30sp"
+        android:layout_below="@id/titulo2"
+        android:layout_toRightOf="@+id/check1"
+        android:layout_marginTop="40sp"
+        android:textColor="#ff0000"/>
+
+    <CheckBox
+        android:id="@+id/check2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titulo2"
+        android:layout_marginLeft="135sp"
+        android:layout_marginTop="46sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Média"
+        android:textSize="30sp"
+        android:layout_below="@id/titulo2"
+        android:layout_toRightOf="@+id/check2"
+        android:layout_marginTop="40sp"
+        android:textColor="#ff0000"/>
+
+    <CheckBox
+        android:id="@+id/check3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titulo2"
+        android:layout_marginLeft="260sp"
+        android:layout_marginTop="46sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baixa"
+        android:textSize="30sp"
+        android:layout_below="@id/titulo2"
+        android:layout_toRightOf="@+id/check3"
+        android:layout_marginTop="40sp"
+        android:textColor="#ff0000"/>
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text="Salvar"
+        android:textSize="30sp"
+        android:layout_below="@id/check1"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="40sp"
+        android:textColor="#ffffff"
+        android:background="#ff0000"
+        />
+
+</RelativeLayout>
