@@ -16,11 +16,11 @@
         android:gravity="center"
         android:textColor="#ff0000" />
 
-    <android.support.design.widget.FloatingActionButton
+    <Button
         android:id="@+id/btnadd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/Btn+"
+        android:text="Adicionar Tarefa"
         android:layout_margin="100dp" />
 
 </RelativeLayout>
