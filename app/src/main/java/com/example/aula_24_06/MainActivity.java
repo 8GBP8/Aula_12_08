@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(v.getContext(), activity_main2.class);
+                Intent intent = new Intent(v.getContext(), Main2Activity.class);
 
                 startActivity(intent);
             }
