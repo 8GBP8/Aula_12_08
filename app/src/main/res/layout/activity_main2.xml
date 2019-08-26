@@ -104,6 +104,7 @@
         android:textColor="#ff0000"/>
 
     <Button
+        android:id="@+id/salvar"
         android:layout_width="300sp"
         android:layout_height="wrap_content"
         android:text="Salvar"
